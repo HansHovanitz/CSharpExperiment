@@ -18,7 +18,8 @@ namespace CSharpExperiment
         {
             Console.WriteLine("Hello World!");
 
-            Houses();
+            Houses(); //Why do you have this here? Is it because you created a method that did all the work?
+            //I guess I usually put all the work in the Main() method. 
 
             //To keep the console open if using Visual Studio. 
             Console.ReadKey();
