@@ -18,3 +18,4 @@ variables, etc.
 It felt very similar to other OOP languages like `Java`. There are of course some differences but for someone
 familiar with Java C# seems easy to pick up.
  
+http://hanshovanitz.com/post/csharp1/
