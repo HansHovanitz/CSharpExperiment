@@ -19,7 +19,19 @@ namespace CSharpExperiment
             Console.WriteLine("Hello World!");
 
             Houses(); //Why do you have this here? Is it because you created a method that did all the work?
-            //I guess I usually put all the work in the Main() method. 
+            //I guess I usually put all the work in the Main() method.  
+            //-JEFF
+            /*-----------------------
+            //Good question. You totally _could_ put everything in the main method. 
+            //Once your program starts to get bigger it will become unwieldy if you have everything in one method though. 
+            //You will miss out on many of the advantages of OOP like reusability and encapsulation. 
+            //The Main method is the required "entry point" into the program but that's basically all it has to be -- 
+            //the program will be more organized if you break it up into different methods and 
+            //eventually classes (different objects, since C# is an object oriented programming language). 
+            //It might not make total sense now, but embrace the process and practice doing it. 
+            //Down the road the picture will start to become more clear and you'll start to see the strengths of this style of programming. 
+            //-HANS
+            -----------------------*/
 
             //To keep the console open if using Visual Studio. 
             Console.ReadKey();
